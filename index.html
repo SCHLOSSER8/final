@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Redações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfólio de Redações</h1>
+            <nav>
+                <a href="#inicio" class="active">Início</a>
+                <a href="#redacoes">Redações</a>
+                <a href="#agradecimentos">Agradecimentos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Minhas 15 Redações</h2>
+                    <p>Uma jornada através das palavras - Produções em Língua Portuguesa</p>
+                    <p class="hero-subtitle">Cada texto representa minha evolução como escritor e pensador</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Livro aberto representando o portfólio de redações">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="redacoes">
+            <div class="container">
+                <h2>Minhas Redações</h2>
+                <div class="redacoes-grid">
+                    <!-- REDAÇÃO 1 -->
+                    <div class="redacao-card">
+                        <div class="numero">1</div>
+                        <h3>Quem sou eu no Mundo</h3>
+                        <p class="tema">Reflexão sobre identidade</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(1)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 2 -->
+                    <div class="redacao-card">
+                        <div class="numero">2</div>
+                        <h3>Procedimentos Estéticos</h3>
+                        <p class="tema">Questões Sociais</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(2)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 3 -->
+                    <div class="redacao-card">
+                        <div class="numero">3</div>
+                        <h3>Acessibilidade no Brasil</h3>
+                        <p class="tema">Inclusão Social</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(3)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 4 -->
+                    <div class="redacao-card">
+                        <div class="numero">4</div>
+                        <h3>Qualidade de Vida</h3>
+                        <p class="tema">Bem-estar Social</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(4)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 5 -->
+                    <div class="redacao-card">
+                        <div class="numero">5</div>
+                        <h3>Mudanças Climáticas</h3>
+                        <p class="tema">Meio Ambiente</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(5)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 6 -->
+                    <div class="redacao-card">
+                        <div class="numero">6</div>
+                        <h3>Lixo Eletrônico</h3>
+                        <p class="tema">Impacto Ambiental</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(6)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 7 -->
+                    <div class="redacao-card">
+                        <div class="numero">7</div>
+                        <h3>Alimentos Ultraprocessados</h3>
+                        <p class="tema">Saúde e Nutrição</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(7)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 8 -->
+                    <div class="redacao-card">
+                        <div class="numero">8</div>
+                        <h3>Jogos de Apostas</h3>
+                        <p class="tema">Dependência Digital</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(8)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 9 -->
+                    <div class="redacao-card">
+                        <div class="numero">9</div>
+                        <h3>Trabalho Voluntário</h3>
+                        <p class="tema">Solidariedade</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(9)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 10 -->
+                    <div class="redacao-card">
+                        <div class="numero">10</div>
+                        <h3>Adultização Infantil</h3>
+                        <p class="tema">Questões Sociais</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(10)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 11 -->
+                    <div class="redacao-card">
+                        <div class="numero">11</div>
+                        <h3>Combate ao Etarismo</h3>
+                        <p class="tema">Preconceito Etário</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(11)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 12 -->
+                    <div class="redacao-card">
+                        <div class="numero">12</div>
+                        <h3>Educação Financeira</h3>
+                        <p class="tema">Educação</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(12)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 13 -->
+                    <div class="redacao-card">
+                        <div class="numero">13</div>
+                        <h3>Cultura Popular</h3>
+                        <p class="tema">Valorização Cultural</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(13)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 14 -->
+                    <div class="redacao-card">
+                        <div class="numero">14</div>
+                        <h3>Saneamento Básico</h3>
+                        <p class="tema">Infraestrutura</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(14)">Ver Redação</button>
+                    </div>
+
+                    <!-- REDAÇÃO 15 -->
+                    <div class="redacao-card">
+                        <div class="numero">15</div>
+                        <h3>Esporte como Transformação</h3>
+                        <p class="tema">Inclusão Social</p>
+                        <button class="btn-ler" onclick="mostrarRedacao(15)">Ver Redação</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agradecimentos">
+            <div class="container">
+                <h2>Agradecimentos</h2>
+                <p>Muito abrigado amigos, que vocês realizem todos os sonhos</p>
+                <p>Agradeço também a minha família por tudo que ajudou até aqui.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Portfólio de Redações - 2025</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DAS REDAÇÕES -->
+    <div id="modal" class="modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modalTitle">Redação</h3>
+                <span class="modal-close" onclick="fecharModal()">&times;</span>
+            </div>
+            <div class="modal-content" id="conteudo-redacao">
+                <!-- A redação aparece aqui -->
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn prev-btn" onclick="redacaoAnterior()">
+                    &larr; Anterior
+                </button>
+                <button class="modal-btn next-btn" onclick="proximaRedacao()">
+                    Próxima &rarr;
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
